@@ -1,0 +1,31 @@
+<html>
+<head>
+	<link rel=stylesheet type="text/css" href="styles.css">
+	<title>Generate a Game</title>
+</head>
+<body>
+	<div class="wrapper">
+		<h4>
+			Generate a Game
+		</h4>
+		<div class="inputData">
+			<input type="text" name="row" id="inputNumber" placeholder="Enter a number between 7 and 10">
+			<button id="buttonGrid">New Grid</button>
+			<p class="message"></p>
+			<div class="playerOne">
+				<p class="playerOneInfo"></p>
+			</div>
+			<div class="playerTwo">
+				<p class="playerTwoInfo"></p>
+			</div> 
+		</div>	
+		
+		<div class="canvasGrid">
+			<canvas id="myCanvas"></canvas>
+		</div>		
+		
+	</div>
+</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+</html>

@@ -1,0 +1,41 @@
+/*Styling the main elements*/
+body {
+	background: #C33764;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #9980FA, #FDA7DF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right,  #9980FA, #FDA7DF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color:#363770;
+}
+h4 {
+	margin: 20px 0;
+}
+canvas {
+	background: #fff;
+}
+*, body {
+	margin: 0;
+	text-align: center;
+}
+.displaying {
+	display: block;
+	padding-top: 20px;
+}
+.inputData {
+	margin-bottom: 20px;
+}
+.wrapper {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.playerOne, .playerTwo, .canvasGrid {
+	display: inline-block;
+}
+.playerOne, .playerTwo {
+    padding: 10px;
+    margin: 10px;
+}
+.playerOne {
+	float: left;
+}
+.playerTwo {
+	float: right;
+}
